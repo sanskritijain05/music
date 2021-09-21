@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #141414;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    padding: 20px;
+}
+.main h1{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size: 70px;
+}
+.profiles{
+    display: flex;
+    width: max-content;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first img,.second img, .kids img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    cursor: pointer;
+}
+.first h2, .second h2, .kids h2{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-weight: 300;
+}
+.images img:hover{
+
+    border: 4px solid white;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 12px;
+    color: white;
+    width: 700px;
+    height: 50px;
+}
+/* .hide{
+    display: none;
+} */
+.btn{
+    width: 130px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 12px;
+    background: crimson;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+    cursor: pointer; 
+}
+.btn:hover{
+    opacity: 0.9;
+}
+h3{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-weight: 300;  
+}
+
+#pass{
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-size: 80px;
+
+}
+
+#wrong, .home h1{
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size: 50px;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.music-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.music-card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 310px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #f1f3f4;
+}
+
+.m-image img{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-audio audio{
+    width: 250px;
+    height: 60px;
+    
+}
